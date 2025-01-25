@@ -1,3 +1,5 @@
+import pairaLogo from "../../assets/paira.png";
+
 export function Header() {
   return (
     <header
@@ -22,11 +24,11 @@ export function Header() {
         }}
       >
         <img
-          src="https://faz.dev/favicon.ico"
+          src={pairaLogo}
           alt="Faz"
           style={{
-            width: "30px",
-            height: "30px",
+            width: "40px",
+            height: "40px",
             borderRadius: "50%",
             marginRight: "10px",
           }}
