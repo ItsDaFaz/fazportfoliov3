@@ -1,21 +1,22 @@
 import pairaLogo from "../../assets/paira.png";
-
+import "./Header.css";
 export function Header() {
   return (
     <header
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: "100%",
-        backgroundColor: "rgb(255, 255, 255)",
-        height: "11vh",
-        display: "grid", // Use CSS Grid for layout
-        gridTemplateColumns: "1fr auto 1fr", // Create three columns
-        alignItems: "center", // Vertically align content
-        padding: "0 7.5vw", // Padding for responsiveness
-        boxSizing: "border-box",
-      }}
+      className="mainHeader"
+      // style={{
+      //   position: "fixed",
+      //   top: 0,
+      //   left: 0,
+      //   width: "100%",
+      //   backgroundColor: "rgb(255, 255, 255)",
+      //   height: "11vh",
+      //   display: "grid", // Use CSS Grid for layout
+      //   gridTemplateColumns: "1fr auto 1fr", // Create three columns
+      //   alignItems: "center", // Vertically align content
+      //   padding: "0 7.5vw", // Padding for responsiveness
+      //   boxSizing: "border-box",
+      // }}
     >
       <div
         style={{
